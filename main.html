@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratham - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Back-to-Top Button -->
+    <button id="back-to-top" title="Go to top">↑</button>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <h1>Pratham Rana Magar</h1>
+                <p id="dynamic-description" class="description"></p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/pratham.thapa.35/" target="_blank" class="social-icon facebook">Facebook</a>
+                    <a href="https://www.linkedin.com/in/pratham-rana-magar-55060327a/" target="_blank" class="social-icon linkedin">LinkedIn</a>
+                    <a href="https://github.com/hipratham" target="_blank" class="social-icon github">GitHub</a>
+                    <a href="https://www.instagram.com/pratham._hi/" target="_blank" class="social-icon instagram">Instagram</a>
+                    <a href="https://www.youtube.com/@prathamknight" target="_blank" class="social-icon youtube">YouTube</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about reveal">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                I'm a passionate Software Developer with a keen interest in cutting-edge technologies, problem-solving, and creating interactive user experiences. As a tech enthusiast and gamer, I love blending creativity and logic to bring ideas to life.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills reveal">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <div class="skill">
+                    <h3>Python</h3>
+                    <div class="progress-bar"><span style="width: 90%;"></span></div>
+                </div>
+                <div class="skill">
+                    <h3>HTML & CSS</h3>
+                    <div class="progress-bar"><span style="width: 75%;"></span></div>
+                </div>
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <div class="progress-bar"><span style="width: 65%;"></span></div>
+                </div>
+                <div class="skill">
+                    <h3>Automation Testing</h3>
+                    <div class="progress-bar"><span style="width: 80%;"></span></div>
+                </div>
+                <div class="skill">
+                    <h3>PHP</h3>
+                    <div class="progress-bar"><span style="width: 75%;"></span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <h2>My Resume</h2>
+            <a href="./photo/Pratham Rana Magar's CV.pdf" download class="download-btn">Download Resume</a>
+        </div>
+    </section>
+
+    <section id="contact" class="contact reveal">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-details">
+                <div class="contact-item">
+                    <i class="icon-email"></i>
+                    <h3>Email</h3>
+                    <p><a href="mailto:prathamrana@gmail.com">itss.pratham24@gmail.com</a></p>
+                </div>
+                <div class="contact-item">
+                    <i class="icon-phone"></i>
+                    <h3>Phone</h3>
+                    <p><a href="tel:+977123456789">+977 9847386380</a></p>
+                </div>
+                <div class="contact-item">
+                    <i class="icon-location"></i>
+                    <h3>Location</h3>
+                    <p>Tokha, Kathmandu</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.1228487496664!2d85.31481711553995!3d27.709031782794834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjfCsDQyJzMyLjUiTiA4NcKwMTgnNTMuNiJF!5e0!3m2!1sen!2snp!4v1675868309372!5m2!1sen!2snp"
+                        width="100%" 
+                        height="250" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Pratham | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
