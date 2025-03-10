@@ -114,3 +114,4 @@ const handleScroll = () => {
 
 window.addEventListener('scroll', handleScroll);
 handleScroll(); // Initial check
+
